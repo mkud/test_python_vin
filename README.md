@@ -17,9 +17,9 @@ REST service return HTTP 500 if any error + JSON-object with the error descripti
 
 Format of the JSON error:
 
-{"error": <string with the error text from our REST service>,\
-"internal_error": <string with the error text from the python exception>,\
-"code": <integer code of the error>}
+{"error": `string with the error text from our REST service`,\
+"internal_error": `string with the error text from the python exception`,\
+"code": `integer code of the error`}
 
 List of errors:
 
