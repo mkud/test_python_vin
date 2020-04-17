@@ -1,0 +1,6 @@
+language: python
+python:
+  - "3.8"
+install:
+  - pip install 'Flask==1.1.1' 'ujson==2.0.3' 'requests==2.23.0'
+script: python3 test_python_vin/test.py
